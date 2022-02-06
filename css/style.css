@@ -55,7 +55,7 @@ a:focus {
 }
 
 .container-fluid {
-    max-width: 1366px;
+    max-width: 100%;
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
@@ -376,7 +376,6 @@ a:focus {
 .carousel .carousel-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .carousel .carousel-text {
