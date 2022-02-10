@@ -336,7 +336,7 @@ a:focus {
     width: 100%;
     min-height: 300px;
     background: #ffffff;
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
 }
 
 .carousel .container-fluid {
@@ -346,7 +346,7 @@ a:focus {
 .carousel .carousel-item {
     position: relative;
     width: 100%;
-    min-height: 300px;
+    /* min-height: 300px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -357,7 +357,7 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    min-height: 300px;
+    /* min-height: 300px; */
     text-align: right;
     overflow: hidden;
 }
@@ -525,7 +525,7 @@ a:focus {
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
     padding: 210px 0 90px 0;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
@@ -667,9 +667,14 @@ a:focus {
     margin-left: 0;
 }
 
-.about .about-img {
+.about-img {
     width: 100%;
     height: 100vh;
+}
+@media (max-width: 992px) {
+    .about .about-img {
+        height: 50vh;
+    }
 }
 
 .about .about-tab {
@@ -871,7 +876,7 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 400px;
-    margin: 45px 0;
+    padding: 45px 0;
     display: flex;
     align-items: center;
     background: rgba(0, 0, 0, .5);
