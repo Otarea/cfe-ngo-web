@@ -199,5 +199,15 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script>
+            var pass=prompt("To open this page, you need to enter the password");
+            if(pass===000){
+                alert("Click OK to open the page");
+            }
+            else{
+                alert("Wrong Password");
+                window.open("./index.html","_self");
+            }
+        </script>
     </body>
 </html>
