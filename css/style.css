@@ -1017,6 +1017,23 @@ a:focus {
     height: 160px;
 }
 
+.team-v .row-v {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-v-item {
+    width: calc(20% - 30px);
+    margin-bottom: 30px;
+}
+
+.team-v .row-v h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 /*******************************/
 /******* Testimonial CSS *******/
