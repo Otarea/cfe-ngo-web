@@ -1312,6 +1312,12 @@ a:focus {
     .event .event-text::after {
         display: none;
     }
+    .team-v-item {
+        display: flex;
+        flex-direction: column;
+        width: calc(50% - 30px);
+        margin-bottom: 30px;
+    }
 }
 
 
